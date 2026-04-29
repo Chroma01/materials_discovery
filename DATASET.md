@@ -30,8 +30,8 @@ gdm_materials_discovery
 There are two main options for downloading the dataset to a local directory.
 
 *   **Command line:** the command line interface can be used to directly
-    download structures from the public bucket via a command of the form `gsutil
-    -m cp -r gs://gdm_materials_discovery/ data/`. The `gsutil` command can be
+    download structures from the public bucket via a command of the form `gcloud
+    storage cp --recursive gs://gdm_materials_discovery/ data/`. The `gcloud storage` command can be
     installed following the
     [Google Cloud CLI install instructions](https://cloud.google.com/sdk/docs/install).
 *   **Python script:** Helper scripts have also been provided, which can be run
